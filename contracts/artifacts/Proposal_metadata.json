@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "emergencyStop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "executeProposal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/L14-DeploycontractatSameAddress,sol.sol": "Proposal"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/L14-DeploycontractatSameAddress,sol.sol": {
+			"keccak256": "0x5f5e89f4a1871dbe9c3bc440f921f6f592d13e494672000d6507bd9717aa4c09",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7121197af2ce453cbbe76af40a90d44289f1ba9bdd698914b4f3cc8f30b25ad7",
+				"dweb:/ipfs/QmWETEnzNaLDqKxeWcS8JWPdkzoQoLg8ZgFYXsRU5mmHRT"
+			]
+		}
+	},
+	"version": 1
+}
